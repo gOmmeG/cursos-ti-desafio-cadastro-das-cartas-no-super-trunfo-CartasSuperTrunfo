@@ -36,7 +36,7 @@ int main() {
     scanf("%f", &pib1);
 
     printf("Insira o NUMERO de PONTOS TURISTICOS:\n");
-    scanf("%d", pontosturisticos1);
+    scanf("%d", &pontosturisticos1);
     
 
 
