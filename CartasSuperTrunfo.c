@@ -37,6 +37,34 @@ int main() {
 
     printf("Insira o NUMERO de PONTOS TURISTICOS:\n");
     scanf("%d", &pontosturisticos1);
+
+    printf("Cidade 1\n");
+    printf("CODIGO: %s\n", codigo1);
+    printf("CIDADE: %s\n", nome1);
+    printf("POPULACAO: %d\n", populacao1);
+    printf("AREA: %.2f\n", area1);
+    printf("PIB: %.2f\n", pib1);
+    printf("PONTOS TURISTICOS: %d\n", pontosturisticos1);
+
+    //CIDADE 2
+
+    printf("Insira o CODIGO da SEGUNDA CIDADE:\n");
+    scanf("%3s", codigo2);
+
+    printf("Insira o NOME da SEGUNDA CIDADE:\n");
+    scanf("%20s", nome2);
+
+    printf("Insira a POPULACAO da SEGUNDA CIDADE:\n");
+    scanf("%d", &populacao2);
+
+    printf("Insira a AREA da SEGUNDA CIDADE em KM²:\n");
+    scanf("%f", &area2);
+
+    printf("Insira o PIB da SEGUNDA CIDADE:\n");
+    scanf("%f", &pib2);
+
+    printf("Insira o NUMERO de PONTOS TURISTICOS da SEGUNDA CIDADE:\n");
+    scanf("%d", &pontosturisticos2);
     
 
 
